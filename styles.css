@@ -25,32 +25,117 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    color: #E5e7eb;
 }
 .body-1 {
     background-color: #1F2937;
     height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.title-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.sub1 {
+    width: 400px;
 }
 
 .body-2 {
-    background-color: #F9FAF8;
     height: 360px;
 }
-
 .header-text-2 {
     text-align: center;
-    padding-top: 40;
+    margin: 20px 0px 40px 0px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fb1 {
+    width: 180px;
+    padding: 0px 10px 0px 10px;
+}
+
+.img {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
 }
 .body-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5e7eb;
     height: 360px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    color: #1F2937;
+    width: 1000px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: auto;  
+
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+    color: #1F2937;
+}
 .body-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F9FAF8;
     height: 240px;
 }
 
+.call-to {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 80px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-weight: 400;
+}
+
+.call-heading {
+    font-size: 24px;
+}
+
+.call-subtext {
+    font-size: 12px;
+    font-weight: 300;
+}
+.sign-up {
+    align-self: end;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -71,15 +156,15 @@ a:visited {
     color: #E5e7eb;
 }
 
-.body-1 {
-    padding: 90px;
-}
-.container-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    color: #F9FAF8;
 }
 
-.text-1 {
-    flex-grow: 5;
+.btn1 {
+    border: none;
+    margin-top: 10px;
 }
